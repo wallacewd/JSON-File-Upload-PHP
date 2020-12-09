@@ -1,9 +1,9 @@
 <?php
                   // JSON File Uploader
                   // Initially created to upload the test paramaters for multiple stock-trading bots running at the same time.
-                  // You can a json file with anyname and it will automatically re-write a set json file in that directory
+                  // You can upload a json file with any file name and it will automatically re-write a set json file on your web-server.
                   // This is useful if you are calling a static json url but need to update the values in the file frequently
-                  // Best used for internal use only or to learn/build off of.
+                  // Best used for internal or privates directories. No safety measures were taken as this runs on a closed network for me
                   // Dan Wallace
 if ( isset($_POST["submit"]) ) {
 
